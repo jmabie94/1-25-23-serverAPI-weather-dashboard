@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, blue, purple);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#city-name {
+    height: 35px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+#city-name input:focus {
+    box-shadow: 0 0 10px navy !important;
+    -moz-box-shadow: 0 0 3px green !important;
+    -webkit-box-shadow: 0 0 3px green !important;
+}
+
+.cityInput {
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    flex-grow: 2;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: navy;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.fa-search:hover {
+    color: lightsalmon;
+}
+
+.borderDiv {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    border:groove rgba(red, green, blue, alpha);
+}
+
+.borderDiv-right-colum {
+    background-color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 10px;
+}
+
+.list-group {
+    margin-bottom: 10px;
+}
+
+.week-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.borderDiv-five-day-forecast {
+    background-color: navy;
+    color: navajowhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    border:groove rgba(red, green, blue, alpha);
+}
+
