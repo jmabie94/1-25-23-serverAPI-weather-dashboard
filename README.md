@@ -13,3 +13,5 @@ A screenshot of the application when opened in Google Chrome can be seen below:
 ![Screenshot of my Dashboard](./images/screencapture-file-C-Users-johnm-Documents-Coding-Bootcamp-Stuff-Challenge-6-Weather-Dashboard-index-html-2023-01-26-01_47_03.png)
 This screenshot is as of 1/26/2023 at 1:48AM CST, will add updated screenshot(s) once adjustments have been made by way of office hours and tutoring.
 
+A link to the deployed application can be found below:
+https://jmabie94.github.io/1-25-23-serverAPI-weather-dashboard/
