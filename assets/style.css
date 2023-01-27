@@ -14,13 +14,13 @@ header {
     margin-bottom: 25px;
 }
 
-.forecast-container {
+.city-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#city-name {
+#cityName {
     height: 35px;
 }
 
@@ -29,13 +29,13 @@ input:focus, textarea:focus, select:focus {
     outline: none !important;
 }
 
-#city-name input:focus {
+#cityName input:focus {
     box-shadow: 0 0 10px navy !important;
     -moz-box-shadow: 0 0 3px green !important;
     -webkit-box-shadow: 0 0 3px green !important;
 }
 
-.cityInput {
+.city-input {
     flex-grow: 1;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -64,7 +64,7 @@ input:focus, textarea:focus, select:focus {
     border:groove rgba(red, green, blue, alpha);
 }
 
-.borderDiv-right-colum {
+.borderDiv-right-column {
     background-color: white;
     padding-left: 3px;
     padding-right: 3px;
@@ -82,7 +82,7 @@ input:focus, textarea:focus, select:focus {
     align-items: center;
 }
 
-.borderDiv-five-day-forecast {
+.borderDiv-five-days {
     background-color: navy;
     color: navajowhite;
     padding-left: 10px;
@@ -91,3 +91,74 @@ input:focus, textarea:focus, select:focus {
     border:groove rgba(red, green, blue, alpha);
 }
 
+/* This will be applied on any screen smaller than 1330px */
+@media screen and (max-width: 1330px) {
+
+    h3 {
+      font-size: 20px;
+    }
+  
+}
+  
+/* This will be applied on any screen smaller than 1025px */
+@media screen and (max-width: 1025px) {
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    .city-input {
+      flex-grow: 1;
+  
+    }
+  
+    .btn {
+      margin-top: 5px;
+      margin-bottom: 1;
+      flex-grow: 1;
+      }
+    
+}
+  
+/* This will be applied on any screen smaller than 900px */
+@media screen and (max-width: 900px) {
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+}
+  
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 768px) {
+  
+    h3 {
+      font-size: 21px;
+    }
+  
+    img {
+      width: 25%;
+    }
+  
+    .city-input {
+      width: 100%;
+    }
+  
+    .btn {
+    margin-top: 5px;
+    margin-bottom: 1;
+    flex-grow: 1;
+    }
+  
+    .weekly-forecast-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+    }
+  
+    .borderDiv-five-days {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-bottom: 5px;
+    }
+}
